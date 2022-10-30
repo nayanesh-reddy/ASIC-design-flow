@@ -1,16 +1,18 @@
-module MAC(a, b, out, rst, clk);
-  
-  input [7:0] a, b;
+module MAC(x, w, out, rst, clk);
+
+  parameter N = 8;
+
+  input [N-1:0] x, w;
   input clk, rst;
-  
-  output reg [15:0] out;
-  
+
+  output reg [2*N-1:0] out;
+
   always @(posedge clk)
     begin
       if(rst)
         out <= 0;
       else
-        out <= out + (a*b);
+        out <= out + (x*w);
     end
 
 endmodule
