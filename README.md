@@ -31,11 +31,11 @@ Multiply and accumulations(MAC) are fundamental operations for domain-specific a
 
     module MAC_tb();
 
-      reg [15:0] x,w;
+      reg [7:0] x,w;
       reg clk = 0;
       reg rst = 0;
 
-      wire [31:0] out;
+      wire [15:0] out;
 
       MAC dut( .x(x), .w(w), .clk(clk), .rst(rst), .out(out) );
 
