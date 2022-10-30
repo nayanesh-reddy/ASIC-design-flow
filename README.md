@@ -70,11 +70,21 @@ Multiply and accumulations(MAC) are fundamental operations for domain-specific a
 ![image](https://user-images.githubusercontent.com/84563214/198867512-905e62b4-f7f0-4bd9-a1b6-831a0c2d41cc.png)
 
   - ### Waveform (EDA Playgroud)
-    - Radix : Binary
+    - #### Radix : Binary
       ![image](https://user-images.githubusercontent.com/84563214/198867565-a326dd26-d86f-404d-b08d-c271b7615f8a.png)
     
-    - Radix : Hex    
+    - #### Radix : Hex    
       ![image](https://user-images.githubusercontent.com/84563214/198867658-aa461b80-3205-423b-af28-f3b224e758e8.png)
 
 ### RTL Synthesis (EDA Playgroud)
+- Under Tools & Simulators select "Yosys 0.9.0" , under Synthesis options drop down leave all boxes uncheck and check the "Show diagram after run" box.
+- #### RTL Netlist
+    ![image](https://user-images.githubusercontent.com/84563214/198868542-89905fcd-89e3-4e79-8780-6e65e2e28cfd.png)
+
+- Using "a" and "b" instead of "x" and "w" to get more pleasing netlist image (but interms of RTL netlist both above and below netlist are same)
+    ![image](https://user-images.githubusercontent.com/84563214/198868797-6f3c77ce-d8a4-4b0c-a5ec-a90d53066f38.png)
+
+### RTL to GDSII flow (Openlane)
+
+
 
