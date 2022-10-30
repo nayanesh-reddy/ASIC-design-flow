@@ -67,6 +67,8 @@ Multiply and accumulations(MAC) are fundamental operations for domain-specific a
     endmodule
     
 ### Simulation results (EDA Playgroud)
+- Under Tools & Simulators select "Aldec Riviera Pro 2022.04" , use can edit the Complie Oprions, Run Options and Run Time but here I'm leaving it as default and check the "Open EPWave after run" box to get the waveform.
+
 ![image](https://user-images.githubusercontent.com/84563214/198867512-905e62b4-f7f0-4bd9-a1b6-831a0c2d41cc.png)
 
   - ### Waveform (EDA Playgroud)
