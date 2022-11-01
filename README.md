@@ -87,13 +87,18 @@ Multiply and accumulations(MAC) are fundamental operations for domain-specific a
 - Using "a" and "b" instead of "x" and "w" to get more pleasing netlist image (but interms of RTL netlist both above and below netlist are same)
     ![image](https://user-images.githubusercontent.com/84563214/198868797-6f3c77ce-d8a4-4b0c-a5ec-a90d53066f38.png)
 
-### RTL to GDSII flow (Openlane) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/18xQSQTZbF0fUeNgo7oNFzP2c7e_gB4zG?usp=sharing)
+### RTL to GDSII flow (Openlane) 
+   - OpenLane is an automated RTL to GDSII flow based on several components including [OpenROAD](https://github.com/The-OpenROAD-Project/OpenROAD), Yosys, Magic, Netgen, CVC, SPEF-Extractor, KLayout and a number of custom scripts for design exploration and optimization. It also provides a number of custom scripts for design exploration, optimization and ECO.
+   
+   - #### OpenLane Flow
+     ![image](https://user-images.githubusercontent.com/84563214/199187645-24ab1133-4c14-4b89-a7ad-18d847ec96e6.png)
 
-Run a logic design through the [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane/) GDS to RTL flow targeting the [open source SKY130 PDK](https://github.com/google/skywater-pdk/).
+  - #### Notebook - openlane_RTL_to_GDS - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/18xQSQTZbF0fUeNgo7oNFzP2c7e_gB4zG?usp=sharing)
 
-    This notebook can also convert the GDS file into multiple STL files (one for each layer in GDS) for rendering it in 3D
+  - This Notebook is used to run a logic design through the [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane/) GDS to RTL flow targeting the [open source SKY130 PDK](https://github.com/google/skywater-pdk/).
+   - *This notebook can also convert the GDS file into multiple STL files (one for each layer in GDS) for rendering it in 3D*
  
- - #### MAC-uint GDSII
+  - #### MAC-uint GDSII
     - Download the SVG file [MAC.svg](https://user-images.githubusercontent.com/84563214/199174378-92f12115-6ba5-41ad-8e46-02e345d9c33d.svg)
     - MAC.png
     ![MAC](https://user-images.githubusercontent.com/84563214/199175384-477f0794-c015-4ddc-9403-99cf52ab692e.png)
@@ -109,6 +114,6 @@ Watch Video for info : [Zero To ASIC Course - Maximo shows how to make beautiful
     - View from bottom-right
         ![MAC_gds_render_2](https://user-images.githubusercontent.com/84563214/199174476-c11c5923-3496-4a7f-bc13-652d7efb7555.png)
 
-*Note : The MAC.png is the 180 degree clockwise rotated version of MAC.svg to match the GDS 3D Render image*
+      - *Note : The MAC.png is the 180 degree clockwise rotated version of MAC.svg to match the GDS 3D Render image*
 
 
