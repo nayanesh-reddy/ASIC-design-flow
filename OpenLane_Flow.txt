@@ -1,0 +1,35 @@
+    0 - openlane design prep
+    1 - synthesis - yosys
+    2 - sta - openroad
+    3 - floorplan initialization - openroad
+    4 - ioplace - openroad
+    5 - tap/decap insertion - openroad
+    6 - pdn generation - openroad
+    7 - random global placement - openlane
+    8 - resizer design optimizations - openroad
+    9 - detailed placement - openroad
+    10 - cts - openroad
+    11 - resizer timing optimizations - openroad
+    12 - resizer timing optimizations - openroad
+    13 - detailed placement - openroad
+    15 - write verilog - openroad
+    15 - global routing - openroad
+    16 - fill insertion - openroad
+    17 - detailed_routing - openroad
+    18 - parasitics extraction - openroad
+    19 - sta - openroad
+    20 - parasitics extraction - openroad
+    21 - sta - openroad
+    22 - parasitics extraction - openroad
+    23 - sta - openroad
+    24 - sta - openroad
+    25 - ir drop report - openroad
+    26 - gdsii - magic
+    27 - spice extraction - magic
+    29 - write verilog - openroad
+    29 - write powered verilog - openlane
+    30 - lvs - netgen
+    31 - drc - magic
+    32 - antenna check - openroad
+    routed
+    flow completed
