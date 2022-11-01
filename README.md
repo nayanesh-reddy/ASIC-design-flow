@@ -89,7 +89,18 @@ Multiply and accumulations(MAC) are fundamental operations for domain-specific a
 
 ### RTL to GDSII flow (Openlane) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/18xQSQTZbF0fUeNgo7oNFzP2c7e_gB4zG?usp=sharing)
 
-Run a logic design through the OpenLane GDS to RTL flow targeting the open source SKY130 PDK.
+Run a logic design through the [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane/) GDS to RTL flow targeting the [open source SKY130 PDK](https://github.com/google/skywater-pdk/).
+
+    This notebook can also convert the GDS file into multiple STL files (one for each layer in GDS) for rendering it in 3D
+ 
+ - #### MAC-uint GDSII
+    ![MAC](https://user-images.githubusercontent.com/84563214/199174378-92f12115-6ba5-41ad-8e46-02e345d9c33d.svg)
+ 
+### GDS Render of the chip
+Watch Video for info : [Zero To ASIC Course - Maximo shows how to make beautiful GDS renders with Blender](https://www.youtube.com/watch?v=gBjQI3GrBHU&t=711s&ab_channel=ZeroToASICCourse)
+    
+ - #### MAC-unit GDS 3D Render in Blender
+    ![MAC_gds_render_2](https://user-images.githubusercontent.com/84563214/199174476-c11c5923-3496-4a7f-bc13-652d7efb7555.png)
 
 
 
