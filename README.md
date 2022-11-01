@@ -87,6 +87,10 @@ Multiply and accumulations(MAC) are fundamental operations for domain-specific a
 - Using "a" and "b" instead of "x" and "w" to get more pleasing netlist image (but interms of RTL netlist both above and below netlist are same)
     ![image](https://user-images.githubusercontent.com/84563214/198868797-6f3c77ce-d8a4-4b0c-a5ec-a90d53066f38.png)
 
-### RTL to GDSII flow (Openlane)
-[![image](https://user-images.githubusercontent.com/84563214/199168621-fe6336f2-00cb-4488-a8bb-8fb32b5047c3.png)](https://colab.research.google.com/github/chipsalliance/silicon-notebooks/blob/main/digital-inverter-openlane.ipynb)
+### RTL to GDSII flow (Openlane) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/18xQSQTZbF0fUeNgo7oNFzP2c7e_gB4zG?usp=sharing)
+
+Run a logic design through the OpenLane GDS to RTL flow targeting the open source SKY130 PDK.
+
+
+
 
