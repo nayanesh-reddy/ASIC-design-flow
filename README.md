@@ -65,7 +65,10 @@ Multiply and accumulations(MAC) are fundamental operations for domain-specific a
         end
 
     endmodule
-    
+ 
+ 
+ 
+ 
 ### Simulation results (EDA Playground)
 - Under Tools & Simulators select "Aldec Riviera Pro 2022.04" , use can edit the Complie Oprions, Run Options and Run Time but here I'm leaving it as default and check the "Open EPWave after run" box to get the waveform.
     - MAC_unit - EDA Playground link : https://www.edaplayground.com/x/PLT4
@@ -79,6 +82,9 @@ Multiply and accumulations(MAC) are fundamental operations for domain-specific a
     - #### Radix : Hex    
       ![image](https://user-images.githubusercontent.com/84563214/198867658-aa461b80-3205-423b-af28-f3b224e758e8.png)
 
+
+
+
 ### RTL Synthesis (EDA Playgroud)
 - Under Tools & Simulators select "Yosys 0.9.0" , under Synthesis options drop down leave all boxes uncheck and check the "Show diagram after run" box.
 - #### RTL Netlist
@@ -87,11 +93,15 @@ Multiply and accumulations(MAC) are fundamental operations for domain-specific a
 - Using "a" and "b" instead of "x" and "w" to get more pleasing netlist image (but interms of RTL netlist both above and below netlist are same)
     ![image](https://user-images.githubusercontent.com/84563214/198868797-6f3c77ce-d8a4-4b0c-a5ec-a90d53066f38.png)
 
+
+
+
 ### RTL to GDSII flow (Openlane) 
    - OpenLane is an automated RTL to GDSII flow based on several components including [OpenROAD](https://github.com/The-OpenROAD-Project/OpenROAD), Yosys, Magic, Netgen, CVC, SPEF-Extractor, KLayout and a number of custom scripts for design exploration and optimization. It also provides a number of custom scripts for design exploration, optimization and ECO.
    
    - #### OpenLane Flow
      ![image](https://user-images.githubusercontent.com/84563214/199187645-24ab1133-4c14-4b89-a7ad-18d847ec96e6.png)
+     https://github.com/nayanesh-reddy/MAC-unit/blob/main/OpenLane_Flow.txt
 
   - #### Notebook - openlane_RTL_to_GDS - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/18xQSQTZbF0fUeNgo7oNFzP2c7e_gB4zG?usp=sharing)
 
@@ -102,6 +112,9 @@ Multiply and accumulations(MAC) are fundamental operations for domain-specific a
     - Download the SVG file [MAC.svg](https://user-images.githubusercontent.com/84563214/199174378-92f12115-6ba5-41ad-8e46-02e345d9c33d.svg)
     - MAC.png
     ![MAC](https://user-images.githubusercontent.com/84563214/199175384-477f0794-c015-4ddc-9403-99cf52ab692e.png)
+
+
+
 
  
 ### GDS Render of the chip
@@ -115,5 +128,3 @@ Watch Video for info : [Zero To ASIC Course - Maximo shows how to make beautiful
         ![MAC_gds_render_2](https://user-images.githubusercontent.com/84563214/199174476-c11c5923-3496-4a7f-bc13-652d7efb7555.png)
 
       - *Note : The MAC.png is the 180 degree clockwise rotated version of MAC.svg to match the GDS 3D Render image*
-
-
