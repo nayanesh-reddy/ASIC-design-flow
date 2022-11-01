@@ -1,8 +1,13 @@
-# MAC unit
+# ASIC Design Flow
 
+Application Specific Integrated Circuit (ASIC) design flow is a mature and silicon-proven IC design process which includes various steps like design conceptualization, chip optimization, logical/physical implementation, and design validation and verification.
+
+ - Lets Design a Digital ASIC using opensource EDA tools in the web browser.
+ - Example design: Basic MAC unit
+ 
+## Basic MAC unit
 Multiply and accumulations(MAC) are fundamental operations for domain-specific accelerator with AI applications ranging from filtering to convolutional neural networks(CNN). MAC unit is also a fundamental block in the computing devices, especially Digital Signal Processor (DSP). MAC unit performs multiplication and accumulation process. Basic MAC unit consists of multiplier, adder, and accumulator.
 
-## Basic MAC unit 
 ### Architecture
 ![image](https://user-images.githubusercontent.com/84563214/198866526-1f8e2293-02e3-47d5-9618-b0b13552ec1d.png)
 
