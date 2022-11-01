@@ -94,14 +94,21 @@ Run a logic design through the [OpenLane](https://github.com/The-OpenROAD-Projec
     This notebook can also convert the GDS file into multiple STL files (one for each layer in GDS) for rendering it in 3D
  
  - #### MAC-uint GDSII
-    ![MAC](https://user-images.githubusercontent.com/84563214/199174378-92f12115-6ba5-41ad-8e46-02e345d9c33d.svg)
+    - Download the SVG file [MAC.svg](https://user-images.githubusercontent.com/84563214/199174378-92f12115-6ba5-41ad-8e46-02e345d9c33d.svg)
+    - MAC.png
+    ![MAC](https://user-images.githubusercontent.com/84563214/199175384-477f0794-c015-4ddc-9403-99cf52ab692e.png)
+
  
 ### GDS Render of the chip
 Watch Video for info : [Zero To ASIC Course - Maximo shows how to make beautiful GDS renders with Blender](https://www.youtube.com/watch?v=gBjQI3GrBHU&t=711s&ab_channel=ZeroToASICCourse)
     
  - #### MAC-unit GDS 3D Render in Blender
-    ![MAC_gds_render_2](https://user-images.githubusercontent.com/84563214/199174476-c11c5923-3496-4a7f-bc13-652d7efb7555.png)
+     - Top View
+        ![MAC_gds_render_3](https://user-images.githubusercontent.com/84563214/199178547-4a7c77b4-d1c3-4e32-8bc8-c15ea7fa47c4.png)
+        
+    - View from bottom-right
+        ![MAC_gds_render_2](https://user-images.githubusercontent.com/84563214/199174476-c11c5923-3496-4a7f-bc13-652d7efb7555.png)
 
-
+*Note : The MAC.png is the 180 degree clockwise rotated version of MAC.svg to match the GDS 3D Render image*
 
 
