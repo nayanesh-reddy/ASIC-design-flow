@@ -113,7 +113,7 @@ Multiply and accumulations(MAC) are fundamental operations for domain-specific a
     - This Notebook is used to run a logic design through the [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane/) GDS to RTL flow targeting the [open source SKY130 PDK](https://github.com/google/skywater-pdk/).
     - *This notebook can also convert the GDS file into multiple STL files (one for each layer in GDS) for rendering it in 3D*
  
-  - #### MAC-uint Layout (without the interconnects)
+  - #### MAC-unit Layout (without the interconnects)
     - Download the SVG file [MAC.svg](https://user-images.githubusercontent.com/84563214/199174378-92f12115-6ba5-41ad-8e46-02e345d9c33d.svg)
     - MAC.png
     ![MAC](https://user-images.githubusercontent.com/84563214/199175384-477f0794-c015-4ddc-9403-99cf52ab692e.png)
