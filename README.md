@@ -2,7 +2,7 @@
 
 Application Specific Integrated Circuit (ASIC) design flow is a mature and silicon-proven IC design process which includes various steps like design conceptualization, chip optimization, logical/physical implementation, and design validation and verification.
 
- - Lets Design a Digital ASIC using opensource EDA tools in the web browser.
+ - Lets Design a Digital ASIC with opensource EDA tools using only the web browser.
  - Example design: Basic MAC unit
  
 ## Basic MAC unit
