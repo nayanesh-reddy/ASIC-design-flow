@@ -76,7 +76,7 @@ Multiply and accumulations(MAC) are fundamental operations for domain-specific a
  
 ### Simulation results (EDA Playground)
 - Under Tools & Simulators select "Aldec Riviera Pro 2022.04" , use can edit the Complie Oprions, Run Options and Run Time but here I'm leaving it as default and check the "Open EPWave after run" box to get the waveform.
-    - MAC_unit - EDA Playground link : https://www.edaplayground.com/x/PLT4
+    - [MAC_unit - EDA Playground link](https://www.edaplayground.com/x/PLT4)
 
 ![image](https://user-images.githubusercontent.com/84563214/198867512-905e62b4-f7f0-4bd9-a1b6-831a0c2d41cc.png)
 
@@ -125,6 +125,7 @@ Multiply and accumulations(MAC) are fundamental operations for domain-specific a
 Watch Video for info : [Zero To ASIC Course - Maximo shows how to make beautiful GDS renders with Blender](https://www.youtube.com/watch?v=gBjQI3GrBHU&t=711s&ab_channel=ZeroToASICCourse)
     
  - #### MAC-unit GDS 3D Render in Blender
+     - [MAC GDS Render Blender File - Google Drive link](https://drive.google.com/file/d/1bgxw2hEb1UtcrC1CS8LCxaCyaqCcOWeA/view?usp=share_link)
      - Top View
         ![MAC_gds_render_3](https://user-images.githubusercontent.com/84563214/199178547-4a7c77b4-d1c3-4e32-8bc8-c15ea7fa47c4.png)
         
