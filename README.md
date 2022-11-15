@@ -135,6 +135,8 @@ Multiply and accumulations(MAC) are fundamental operations for domain-specific a
 
       - *Note : The MAC.png is the 180 degree clockwise rotated version of MAC.svg to match the GDS 3D Render image*
 
+&nbsp;
+
 ### Preview of 3D Render of GDS in Colab
 <p float="left">
   <img src="https://user-images.githubusercontent.com/84563214/201965560-8fb2a940-6533-4a0a-a225-d7928a6fed79.png" width=40% height=40% />
