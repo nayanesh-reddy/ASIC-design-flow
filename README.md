@@ -121,7 +121,7 @@ Multiply and accumulations(MAC) are fundamental operations for domain-specific a
 
 
 
-### 3D GDS Render of the chip using Blender
+### 3D Render of GDS in Blender
  - Watch Video for info : [Zero To ASIC Course - Maximo shows how to make beautiful GDS renders with Blender](https://www.youtube.com/watch?v=gBjQI3GrBHU&t=711s&ab_channel=ZeroToASICCourse)
  - [Download Blender](https://www.blender.org/download/)
     
@@ -137,7 +137,7 @@ Multiply and accumulations(MAC) are fundamental operations for domain-specific a
 
 &nbsp;
 
-### Preview of 3D Render of GDS in Colab
+### 3D Render of GDS in Colab
 <p float="left">
   <img src="https://user-images.githubusercontent.com/84563214/201965560-8fb2a940-6533-4a0a-a225-d7928a6fed79.png" width=40% height=40% />
   <img src="https://user-images.githubusercontent.com/84563214/201967747-fbff2f75-d9a8-4a99-baf5-6a6f7b69d977.png" width=57% height=40% /> 
