@@ -138,5 +138,5 @@ Multiply and accumulations(MAC) are fundamental operations for domain-specific a
 ### Preview of 3D Render of GDS in Colab
 <p float="left">
   <img src="https://user-images.githubusercontent.com/84563214/201965560-8fb2a940-6533-4a0a-a225-d7928a6fed79.png" width=40% height=40% />
-  <img src="https://user-images.githubusercontent.com/84563214/201967747-fbff2f75-d9a8-4a99-baf5-6a6f7b69d977.png" width=55% height=40% /> 
+  <img src="https://user-images.githubusercontent.com/84563214/201967747-fbff2f75-d9a8-4a99-baf5-6a6f7b69d977.png" width=57% height=40% /> 
 </p>
